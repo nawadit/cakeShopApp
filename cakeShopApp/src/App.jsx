@@ -12,8 +12,9 @@ function App() {
     <Provider store={store}>
 			 {/* passing our application store as a prop to the Provider component so that it can provide our store to all the components it wraps around */}
       <div>
-        {/* <Home/> */}
-        <HomeTwo/>
+      
+        {/* <HomeTwo/> */}
+        Hello
       </div>
     </Provider>
   )
